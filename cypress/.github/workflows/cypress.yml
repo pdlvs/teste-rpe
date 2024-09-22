@@ -4,6 +4,8 @@ jobs:
   cypress-run:
     runs-on: ubuntu-22.04
     steps:
+      - name: Cypress.io
+        uses: cypress-io/github-action@v6.7.6
       - name: Checkout
         uses: actions/checkout@v4
       # Install npm dependencies, cache them correctly
@@ -12,3 +14,5 @@ jobs:
         uses: cypress-io/github-action@v6
          with:
           browser: chrome
+   
+      
