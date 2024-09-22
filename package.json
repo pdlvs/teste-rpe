@@ -1,0 +1,19 @@
+{
+  "name": "test-rpe-patricia",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "format": "prettier --write '**/*.{js,ts}'"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.14.2",
+    "cypress-real-events": "^1.13.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2"
+  }
+}
