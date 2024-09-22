@@ -8,9 +8,9 @@ module.exports = defineConfig({
     baseUrl: 'http://provaqa.prc.rpe.tech:9080',
     testIsolation: false, 
     specPattern: [
-      'cypress\\e2e\\interface\\cliente.cy.ts',
-      'cypress\\e2e\\interface\\login.cy.ts',
-      'cypress\\e2e\\interface\\transacao.cy.ts',
+      'cypress/e2e/interface/cliente.cy.ts',
+      'cypress/e2e/interface/login.cy.ts',
+      'cypress/e2e/interface/transacao.cy.ts',
     ]
   },
 });
